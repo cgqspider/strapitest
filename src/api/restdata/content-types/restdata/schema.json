@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "restdatas",
+  "info": {
+    "singularName": "restdata",
+    "pluralName": "restdatas",
+    "displayName": "restdata"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "phone": {
+      "type": "integer"
+    }
+  }
+}
